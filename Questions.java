@@ -60,26 +60,7 @@ public class Questions {
     	}
     }
     
-    //search question
-    public List<Question> searchQuestion(String keyword) {
-        //create array list to store search hits
-    	List<Question> search_match = new ArrayList<>();
-    	
-    	//search for keyword
-    	for(int i = 0; i < question_list.size(); i++) {
-    		if (question_list.get(i).getText().toLowerCase().contains(keyword.toLowerCase())) {
-                search_match.add(question_list.get(i));
-    			}
-    		}
-    		//validation - question found?
-    		if (search_match.isEmpty()) {
-    			System.out.println("No search results found");
-    		
-    	}
-    	
-    	return search_match;
-    }
-    
+   
     //display all questions
     public void displayAllQuestions() {
         if (question_list.isEmpty()) {
