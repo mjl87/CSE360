@@ -4,3 +4,5 @@
 # Instructions to run:
 
 # 1. Main is in the CRUD.java file. With JavaFX installed simply run the program and it should be intuitive
+
+# Link to screencast https://youtu.be/xwyyln9-MAs
